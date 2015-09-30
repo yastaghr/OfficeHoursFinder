@@ -1,0 +1,7 @@
+create account with name, school/department, office
+add office hours to teacher
+edit office hours (teacher)
+cancel office hours
+search by name, dept, classes
+send email to user (?)
+save office hours (student)
