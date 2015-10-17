@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link rel='stylesheet' href='fullcalendar/fullcalendar.css' />
+    <link type="text/css" rel='stylesheet' href='bower-contents/*/fullcalendar.css' />
     <script src='bower-contents/*/jquery.min.js'></script>
     <script src='bower_contents/*/moment.min.js'></script>
     <script src='bower-contents/*/fullcalendar.js'></script>
@@ -9,12 +9,22 @@
     <title> Current Schedule</title>
   </head>
   <body ng-app = "fullcalander">
-    <div class = "site-head">
+    <div class="header">
+        <\\sitename here>
+
     </div>
-    <div class="Contents">
-      <h4 class = "page-name"> Current Schedule</h4>
-      <div id="calander" ng-controller="mainController">
-      </div>
+
+    <div class="main" ng-controller="mainController">
+      <app-info ="">
     </div>
+
+    <div class="sidebar">
+
+    </div>
+
+    <div class="footer">
+
+    </div>
+
   </body>
 </html>

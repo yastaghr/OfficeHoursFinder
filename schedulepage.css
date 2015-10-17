@@ -1,11 +1,8 @@
 *{
   background-color: blue;
+  color: white;
 }
-.page-name {
-  font-family: sans-serif;
-  font-size: 2em;
-}
-.site-head{
-  background-color: #000033;
-  border-radius: 15%;
+#calendar{
+  max-width: 900px;
+  margin: 0 auto;
 }
